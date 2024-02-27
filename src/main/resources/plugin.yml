@@ -1,0 +1,12 @@
+name: MirageIslands
+version: '${project.version}'
+main: com.nensi.mirageislands.MirageIslands
+api-version: '1.20'
+commands:
+  mirageislands:
+    usage: /mirageislands
+
+softdepend:
+  - ProtocolLib
+  - WorldEdit
+  - ItemsAdder

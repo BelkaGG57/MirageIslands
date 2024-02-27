@@ -1,0 +1,6 @@
+schematic: test
+cost: 600
+name: "<#ff9933>Остров саванны"
+material: ACACIA_LOG
+cmd: 0
+spawn_offset: -3;5;-3

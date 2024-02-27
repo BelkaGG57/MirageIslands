@@ -1,0 +1,30 @@
+schematic: test2
+cost: 1000
+name: "<#ff9933>Остров саванны"
+material: ACACIA_LOG
+cmd: 0
+spawn_offset: -10;5;-10
+
+stats_interval: 100
+stats:
+  test:
+    key: default
+    stat: ATTACK_DAMAGE
+    value: 1
+
+expansions:
+  first:
+    schematic: test2ex1
+    cost: 100
+    offset: -20;10;10
+    name: "&fМаленький островок"
+    material: ACACIA_LEAVES
+    cmd: 0
+  
+  second:
+    schematic: test2ex1
+    cost: 100
+    offset: 20;20;-20
+    name: "&fМаленький островок 2"
+    material: ACACIA_LEAVES
+    cmd: 0
